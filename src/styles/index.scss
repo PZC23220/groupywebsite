@@ -1,0 +1,503 @@
+@mixin inlineBlock {
+	display: inline-block;
+	vertical-align: middle;
+}
+// content
+.event-swiper-content-web,.download-web {
+	display: none;
+}
+.banner-content {
+	background-image: url(http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival/bg.png);
+  background-repeat: repeat;
+  background-color: #fdf2ea;
+}
+.banners {
+	width: 100%;
+	display: block;
+}
+.groupy-h2 {
+	margin-top: 1.5rem;
+	>* {
+		@include inlineBlock;
+	}
+	img {
+		width: 13.25rem;
+	}
+	span {
+		padding: 0 1rem;
+		font-size: 1.7rem;
+		color: #FFA2BE;
+		letter-spacing: 0.1rem;
+	}
+}
+.groupy-h3 {
+	position: relative;
+	width: 19.4rem;
+	margin: 0.75rem auto 1.75rem;
+	img {
+		display: block;
+		width: 100%;
+	}
+	span {
+		color: #FFFFFF;
+		font-size: 1.5rem;
+		height: 3.5rem;
+		left: 0;top: 0;
+		letter-spacing: 0.3rem;
+		line-height: 3.5rem;
+		position: absolute;
+		width: 19.4rem;
+	}
+}
+.groupy-desc {
+	font-size: 0.9rem;
+	color: #EF2E69;
+	margin-bottom: 1rem;
+}
+.groupy-desc-img {
+	display: flex;
+	li {
+		flex: 1;
+		padding: 1rem 0.35rem 4rem;
+		a {
+			display: block;
+		}
+	}
+}
+.groupy-desc-img-2 {
+	li {
+		padding: 1rem 1rem 4rem;
+	}
+	.desc-img {
+		border: 0.1rem solid #ffc1d4;
+		padding: 0.1rem;
+		box-sizing: border-box;
+		border-radius: 0.5rem;
+	}
+}
+.desc-img-content {
+
+}
+.desc-title {
+	height: 4.3rem;
+	margin-bottom: 0.75rem;
+}
+.desc-img {
+	width: 100%;
+	display: block;
+	margin-bottom: 1rem;
+}
+.desc-p {
+	color: #666666;
+	letter-spacing: 1.35px;
+	padding: 0 1.2rem;
+	display: block;
+}
+// product
+.bg-img {
+	display: block;
+	width: 100%;
+}
+.bg-img-2 {
+  transform: rotate(180deg)
+}
+.product {
+	background: url(http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/bg_3.png) repeat left top;
+	overflow: hidden;
+}
+.idol-desc {
+	position: relative;
+	margin-top: 3rem;
+	>img {
+		vertical-align: top;
+	}
+}
+.idol-video {
+	width: 23.4rem;
+}
+.idol-info {
+	padding-top: 2.5rem;
+	padding-left: 2.5rem;
+	width: 17.75rem;
+}
+.idol-name {
+	font-size: 1.1rem;
+	color: #999999;
+	position: absolute;
+	bottom: 1.5rem;
+	left: 50%;
+	margin-left: -2rem;
+}
+.idol-name-2 {
+	margin-left: -11rem;
+	bottom: 2.6rem;
+}
+.idol-name-3 {
+	margin-left: -3rem;
+}
+.groupy-h4 {
+	display: block;
+	font-size: 1.2rem;
+	padding: 0 0 0.25rem;
+	text-align: left;
+	font-weight: 600;
+}
+// idol group
+.news,.idol-group {
+	padding-top: 2.5rem;
+}
+.desc-p-2 {
+	color: #999;
+	text-align: left;
+	padding: 0;
+}
+.idol-more {
+	color: #666;
+	line-height: 1.3rem;
+	height: 1.5rem;
+	display: inline-block;
+	margin-top: 1rem;
+	a {
+		border-radius: 4.9rem;
+		border: 0.1rem solid #666666;
+	}
+	a span {
+		padding: 0 1rem;
+		background: transparent;
+	}
+	a::before {
+		background: #666;
+	}
+	span >* {
+		@include inlineBlock;
+	}
+	img {
+		width: 0.4rem;
+		margin-left: 0.5rem;
+	}
+}
+.groupy-more {
+	border-radius: 2.8rem;
+	font-size: 1.2rem;
+	width: 10rem;
+	margin: 0 auto 3.5rem;
+	height: 2.5rem;
+	line-height: 2.3rem;
+	img {
+		width: 0.65rem;
+		margin-left: 1rem;
+	}
+	a {
+		display: block;
+		border-radius: 4.9rem;
+		border: 0.1rem solid #666;
+	}
+	a span {
+		padding: 0 1rem;
+		background: transparent;
+	}
+	a::before {
+		background: #333;
+	}
+	span >* {
+		@include inlineBlock;
+	}}
+// event
+.event {
+	background-image: url(http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/bg_5.jpg);
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 2.5rem;
+
+}
+.event-swiper-content {
+	position: relative;
+	padding: 0 3rem;
+}
+.btn-left {
+	left: 1rem;
+}
+.btn-right {
+	right: 1rem;
+}
+.event-btn {
+	width: 1.85rem;
+	top: 50%;
+	position: absolute;
+	margin-top: -6.4rem;
+}
+.swiper-content2 {
+	width: 54rem;
+}
+.event-slides {
+	width: 28rem;
+	box-sizing: border-box;
+	padding: 0 1rem;
+	text-align: left;
+}
+.event-img-content {
+	display: block;
+	width: 25rem;
+}
+.event-img {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	border: 0.1rem solid #ffb7a3;
+	padding: 0.1rem;
+	border-radius: 0.5rem;
+	background: #fff;
+}
+.event-desc {
+	text-align: left;
+	font-size: 1.3rem;
+	color: #FFFFFF;
+	letter-spacing: 1.53px;
+	padding-left: 0.5rem;
+	>* {
+		@include inlineBlock;
+	}
+	img {
+		margin-left: 0.8rem;
+		width: 0.65rem;
+	}
+}
+
+.event-more {
+	a {
+		border-color: #fff;
+		color: #fff;
+	}
+	a:before {
+		background: #fff;
+		color: #875555;
+	}
+}
+
+//download
+.download {
+	background: url(http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/bg_4.png) repeat left top;
+	overflow: hidden;
+}
+.download-content >* {
+	@include inlineBlock;
+	color: #FFFFFF;
+	padding-top: 1.5rem;
+}
+.product-img {
+	width: 11.7rem;
+	margin-right: 1.85rem;
+}
+.icon_groupy {
+	width: 4.75rem;
+	margin-bottom: 1rem;
+}
+.site-desc {
+	font-size: 1rem;
+	position: relative;
+	padding-left: 1.75rem;
+	padding-right: 1.2rem;
+	padding-bottom: 0.5rem;
+}
+.site-desc-letter-spacing {
+	letter-spacing: 0.8rem;
+}
+.img_star {
+	position: absolute;
+
+}
+.img_star_2 {
+	left: 0;
+	bottom: 0;
+	width: 1.75rem;
+}
+.img_star_1 {
+	right: 0;
+	top: 0;
+	width: 1.2rem;
+}
+.download-qr {
+	margin-left: 3rem;
+}
+.apps {
+	margin-right: 1.6rem;
+	line-height: 1.5;
+	>a {
+		display: block;
+	}
+	img {
+		width: 9rem;
+	}
+}
+.ios {
+	margin-bottom: 1.7rem;
+}
+.download-qr-content {
+	height: 9.6rem;
+	line-height: 9.6rem;
+	overflow: hidden;
+	>* {
+		@include inlineBlock;
+	}
+	.qr-groupy {
+		height: 9.6rem;
+	}
+}
+.download-qr-tips {
+	font-size: 0.9rem;
+	margin-top: 1.5rem;
+}
+.download-web .download-content {
+	display: flex;
+	>* {
+		flex: 1;
+	}
+	.site-content {
+		>* {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.site-desc {
+		width: 13rem;
+	}
+	.site-desc-letter-spacing {
+		letter-spacing: 0;
+		width: 8.4rem;
+	}
+	.download-qr {
+		padding-top: 3rem;
+		margin-left: 0;
+	}
+	.download-qr-content {
+		height: auto;
+		line-height: 1.5;
+		>* {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.ios {
+		margin: 12px auto;
+	}
+	.download-qr-tips {
+		margin-top: 12px;
+	}
+}
+@media screen and (max-width:1080px) {
+  /* iPad 横 l */
+  .swiper-content2 {
+    width: calc(100% - 1.7rem);
+  }
+  .event-slides {
+    width: calc(50vw - 3.8rem);
+  }
+  .event-img-content{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width:900px) {
+	.swiper-content {
+		padding: 0;
+	}
+	.download {
+		display: none;
+	}
+	.download-web {
+		display: block;
+	}
+	.site-desc-letter-spacing {
+    letter-spacing: 5px;
+  }
+}
+@media screen and (max-width:500px) {
+	.groupy-h2 {
+		margin-top: 8px;
+		span {
+			font-size: 12px;
+		}
+		img {
+			width: 24.8vw;
+		}
+	}
+	.groupy-h3 {
+		width: 35.2vw;
+		span {
+			width: 100%;
+			font-size: 12px;
+			height: 6.5vw;
+			line-height: 6.5vw;
+			letter-spacing: 2.1px;
+		}
+	}
+	.groupy-desc {
+		padding: 0 16px;
+	}
+	.groupy-desc-img {
+		display: block;
+		padding: 12px 12px 20px;
+		li {
+			padding: 3px 0 ;
+			overflow: hidden;
+			text-align: left;
+		}
+	}
+	.desc-img {
+		float: left;
+		width: 55%;
+		margin-right: 2%;
+	}
+	.desc-title {
+		height: 12vw;
+		margin-bottom: 0;
+	}
+	.idol-desc {
+		padding: 0 12px;
+	}
+	.desc-p {
+		float: right;
+		width: 42%;
+		padding: 0;
+	}
+	.idol-name {
+		font-size: 1rem;
+		margin-left: -4vw;
+    bottom: 1.1vw;
+	}
+	.idol-name-2 {
+		margin-left: -10.5rem;
+    bottom: 3.7vw;
+	}
+	.idol-name-3 {
+		margin-left: -6vw;
+    bottom: 2vw;
+	}
+	.idol-video {
+		width: 53%;
+	}
+	.idol-info {
+		box-sizing: border-box;
+		width: 45%;
+		padding-left: 1rem;
+	}
+	.groupy-h4 {
+		font-size: 16px;
+	}
+	.idol-more a span {
+		height: 18px;
+		line-height: 18px;
+	}
+	.event-slides {
+		width: calc(100vw - 3.8rem);
+	}
+	.event-swiper-content {
+		display: none;
+	}
+	.event-swiper-content-web {
+		display: block;
+	}
+	.event-page {
+		padding: 25px 0;
+	}
+
+}

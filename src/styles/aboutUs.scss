@@ -1,0 +1,42 @@
+table {
+	text-align: left;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+td {
+	font-size: 1rem;
+	padding: 0.4rem 0;
+	img {
+		display: block;
+		width: 100%;
+		padding: 1rem 0;
+	}
+}
+.bigImg {
+	width: 41.5rem;
+}
+.tr-title {
+	font-weight: 600;
+	padding-right: 2.5rem;
+}
+.weibo {
+	text-decoration: underline;
+}
+.marginTop {
+	margin-top: 2rem;
+}
+@media screen and (max-width:900px) {
+  .bigImg {
+    width: 38rem !important;
+  }
+}
+@media screen and (max-width:500px) {
+  /* iPad 縦 m */
+  .tr-title {
+    min-width: 50px;
+    padding-right: 19px !important;
+  }
+  .bigImg {
+    width: 30rem !important;
+  }
+}

@@ -1,0 +1,169 @@
+@import "./styles/reset.css";
+@import "common";
+
+@media screen and (max-height:820px) {
+  /* iPad 横 l */
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:1080px) {
+  /* iPad 横 l */
+  html {
+    font-size: 18px;
+  }
+  .width1200,.width1000{
+    max-width: 100vw;
+    padding: 0 1rem;
+  }
+  .btn-left {
+    left: 12px;
+  }
+  .btn-right {
+    right: 12px;
+  }
+  .page-desc {
+    padding: 1rem;
+  }
+}
+@media screen and (max-height:760px) {
+  /* iPad 横 l */
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  /* iPad 横 l */
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  #nav_bar {
+    display: inline-block;
+  }
+  .tabs-li,.changeLan {
+    display: none;
+  }
+  .navs .tabs-li ,.navs .changeLan{
+    display: block;
+  }
+  .tabs-groupy-icon  {
+    float: left;
+    margin-top: 6.5px;
+  }
+  .header {
+    height: 50px;
+    line-height: 50px;
+    // border-bottom: 1px solid  #E8637A;
+  }
+  .tabs >* {
+    height: 50px;
+  }
+  .content {
+    padding-top: 50px;
+  }
+  .tabs-groupy-icon {
+    padding: 0 12px;
+    img {
+        height: 37px;
+    }
+    .Groupy-web {
+        font-size: 18.5px;
+    }
+  }
+  .changeLan {
+    margin-right: 8px;
+  }
+  .download-qr-content .qr-groupy {
+    height: 8rem;
+  }
+  .apps img {
+    width: 8rem;
+  }
+  .qr-list {
+    display: flex;
+    padding: 0;
+    li {
+      flex: 1;
+      >* {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .qr-desc {
+      margin-top: 12px;
+      text-align: center;
+      padding: 0 12px;
+    }
+  }
+  .qr-list li:not(:last-child) {
+    margin-right: 0;
+  }
+  .download-qr-content {
+    height: 8rem;
+    line-height: 8rem;
+  }
+  .product-img,.apps {
+    margin-right: 1rem;
+  }
+  .product-img {
+    width: 10rem;
+  }
+  .icon_groupy {
+    width: 4rem;
+  }
+  .download-qr {
+    margin-left: 1rem;
+  }
+  .event-page {
+    padding: 2rem 0;
+  }
+  .news-list li{
+    margin: 0 12px;
+    line-height: 1.5;
+    height: auto;
+    &:first-child {
+      padding-bottom: 12px;
+    }
+    &:not(:first-child) {
+      padding: 12px 0;
+    }
+    p {
+      display: block;
+      width: 80px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    span {
+      width: calc(100% - 23px);
+      margin-right: 12px;
+    }
+  }
+  article {
+    width: 100vw;
+    padding:0 12px 2rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width:500px) {
+  /* iPad 縦 m */
+  html {
+    font-size: 12px;
+  }
+  .news-list li{
+    p {
+      width: 60px;
+    }
+
+  }
+}
+
+@media screen and (max-height:600px) {
+  /* iPad 縦 m */
+  .navs .navs-none {
+    margin-top: 20px;
+  }
+}
