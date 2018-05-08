@@ -7,7 +7,7 @@
       <div class="banner-content">
         <swiper :options="swiperOption" ref="bannerSwiper" class="swiper-content width1200 scrollReveal">
           <swiper-slide id="swiper1" class="banner-slides">
-            <img :src="text.banner1" class="banners">
+            <a href="http://activity.groupy.vip/GroupyIdolFestival201805/index.html" target="_black"><img :src="text.banner1" class="banners"></a>
           </swiper-slide>
           <!-- <div class="swiper-pagination banner-page" slot="pagination"></div> -->
         </swiper>
@@ -74,22 +74,22 @@
             <router-link :to="'/idolGroup_group?id=50&lan='+this.lan"><img :src="text.idol1Img" class="desc-img"></router-link>
             <router-link :to="'/idolGroup_group?id=50&lan='+this.lan" class="groupy-h4">{{text.idol1Name}}</router-link>
             <router-link :to="'/idolGroup_group?id=50&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol1Desc"></router-link>
-            <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=1&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
+            <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=50&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
           </li>
           <li>
             <router-link :to="'/idolGroup_group?id=32&lan='+this.lan"><img :src="text.idol2Img" class="desc-img"></router-link>
             <router-link :to="'/idolGroup_group?id=32&lan='+this.lan" class="groupy-h4">{{text.idol2Name}}</router-link>
             <router-link :to="'/idolGroup_group?id=32&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol2Desc"></router-link>
-            <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=1&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
+            <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=32&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
           </li>
          <li>
             <router-link :to="'/idolGroup_group?id=42&lan='+this.lan"><img :src="text.idol3Img" class="desc-img"></router-link>
             <router-link :to="'/idolGroup_group?id=42&lan='+this.lan" class="groupy-h4">{{text.idol3Name}}</router-link>
             <router-link :to="'/idolGroup_group?id=42&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol3Desc"></router-link>
-            <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=1&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
+            <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=42&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
           </li>
         </ul>
-        <div class="groupy-more scrollReveal group-translateX"><router-link :to="'/idolGroup?lan='+this.lan"data-hover="MORE"><span><em>MORE</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></span></router-link></div>
+        <div class="groupy-more scrollReveal group-translateX"><router-link :to="'/idolGroup?lan='+this.lan" data-hover="MORE"><span><em>MORE</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></span></router-link></div>
       </div>
       <!-- EVENT -->
       <div class="event" id="event">
@@ -157,15 +157,15 @@
            <div class="banner-page event-page"><span class="eventTabs2 active cursor" @click="changeSwipers(1)"></span><span class="eventTabs2 cursor" @click="changeSwipers(2)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(3)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(4)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(5)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(6)"></span></div>
           <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_4.png" @click="clickRight2()" class="event-btn btn-right cursor">
         </div>
-        <div class="groupy-more event-more scrollReveal group-translateX"><a href="" data-hover="MORE"><span><em>MORE</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></span></a></div>
+        <div class="groupy-more event-more scrollReveal group-translateX"><router-link :to="'/event?lan='+this.lan" data-hover="MORE"><span><em>MORE</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></span></router-link></div>
       </div>
       <!-- NEWS -->
       <div class="news" id="news">
         <h2 class="groupy-h2 scrollReveal"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_1.png"><span>NEWS</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_1.png"></h2>
         <h3 class="groupy-h3 scrollReveal"><span>{{text.newsTitle}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_2.png"></h3>
         <ul class="news-list scrollReveal">
-          <li><router-link :to="'/news_desc?id=1&lan='+lan"><p><time>{{text.news1Time}}</time></p><span>{{text.news1Title}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></router-link></li>
-          <li><router-link :to="'/news_desc?id=1&lan='+lan"><p><time>{{text.news2Time}}</time></p><span>{{text.news2Title}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></router-link></li>
+          <li><router-link :to="'/news_desc?id=3&lan='+lan"><p><time>{{text.news1Time}}</time></p><span>{{text.news1Title}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></router-link></li>
+          <li><router-link :to="'/news_desc?id=2&lan='+lan"><p><time>{{text.news2Time}}</time></p><span>{{text.news2Title}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></router-link></li>
           <li><router-link :to="'/news_desc?id=1&lan='+lan"><p><time>{{text.news3Time}}</time></p><span>{{text.news3Title}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></router-link></li>
         </ul>
         <div class="groupy-more scrollReveal group-translateX"><router-link :to="'/news?lan='+lan" data-hover="MORE"><span><em>MORE</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_2.png"></span></router-link></div>
@@ -228,12 +228,7 @@ export default {
       swiperOption: {
         setWrapperSize :true,
         speed:500,
-        // loop: true,
-        // autoplay: true,
         paginationClickable: true,
-        // autoplay: {
-        //   disableOnInteraction: false
-        // },
         pagination: {
           el: '.swiper-pagination',
           clickable :true,

@@ -35,7 +35,7 @@
        <table class="width1000">
         <tr>
           <td class="tr-title">{{text.email}}</td>
-          <td class="bigImg"><a href="mailto:contact@cloudtrons.com">contact@cloudtrons.com</a></td>
+          <td class="bigImg"><a :href="'mailto:'+text.emailNumber">{{text.emailNumber}}</a></td>
         </tr>
         <tr v-if="text.weibo">
           <td class="tr-title">{{text.weibo}}</td>
@@ -77,6 +77,7 @@ export default {
         weibo: '微博',
         public: '公众号',
         publicName: 'Groupy三次元日系爱豆短视频',
+        emailNumber: 'contact@groupy.vip'
       }
     }
   },
@@ -99,6 +100,7 @@ export default {
           weibo: '微博',
           public: '公众号',
           publicName: 'Groupy三次元日系爱豆短视频',
+          emailNumber: 'contact@groupy.vip'
         }
       }else {
         this.text = {
@@ -114,6 +116,7 @@ export default {
           address: '地址',
           contact: 'お問合せ',
           email: 'Email',
+          emailNumber: 'contact@cloudtrons.com'
         }
       }
     },

@@ -38,6 +38,12 @@ export default new Router({
           {path: '/news_index', component: news_index},
           {path: '/news_desc', component: news_desc},
         ]
+    }, {
+      path: '/index_chinese',
+      redirect: 'index'
+    }, {
+      path: '/index_japanese',
+      redirect: 'index'
     },{
         path: '/idolGroup',
         component: idolGroup,

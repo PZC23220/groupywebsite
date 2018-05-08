@@ -111,6 +111,10 @@ export default {
       tabs.removeClass('active');
       tabs.eq(val).addClass('active');
       this.swiper.slideTo(val, 500, false)
+      let tabs2 = $('.group-page1 span');
+      tabs2.removeClass('active');
+      tabs2.eq(0).addClass('active');
+      this.groupSwiper2.slideTo(0, 500, false)
     },
     changeSwipers2(val) {
       setTimeout(function() {
