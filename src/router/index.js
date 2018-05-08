@@ -29,8 +29,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'index',
-      component: index
+      redirect: 'index'
     },{
         path: '/news',
         component: news,
