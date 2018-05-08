@@ -8,7 +8,7 @@
         <a target="_black" :href="'https://twitter.com/intent/user?user_id='+idolInfo.idolList[0].snsUidTw" v-if="idolInfo.idolList.length == 1 && idolInfo.idolList[0].snsUidTw" class="idol-sns idol-sns-desc"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_twitter.png"></a>
         <a target="_black" :href="'https://weibo.com/u/'+idolInfo.idolList[0].snsUidWeibo" v-if="idolInfo.idolList.length == 1 && idolInfo.idolList[0].snsUidWeibo" class="idol-sns idol-sns-desc"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_weibo.png"></a>
         <p class="group-title2 scrollReveal width1000">{{idolInfo.introduce}}</p>
-        <img :src="idolInfo.img" class="group-img scrollReveal">
+        <img v-lazy="idolInfo.img" class="group-img scrollReveal">
         <div class="group-idol scrollReveal" v-if="idolInfo.idolList && idolInfo.idolList.length > 1"><span></span><em>入驻爱豆</em><span></span></div>
         <ul class="group-list" v-if="idolInfo.idolList && idolInfo.idolList.length > 1">
           <li class="list-content scrollReveal" v-for="idol in idolInfo.idolList">
@@ -77,7 +77,7 @@ export default {
   },
   methods: {
     changeInfo() {
-      if(this.lan === 'zh-cn') {
+      if(this.lan == 'zh-cn') {
         console.log(this.lan)
         this.text = {
           index: '首页',

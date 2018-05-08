@@ -53,9 +53,14 @@
           <p class="idol-name idol-name-2">{{text.video2Name}}</p>
         </div>
         <div class="idol-desc scrollReveal">
-          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_video_3.jpg" class="idol-video">
+          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_video_3.png" class="idol-video">
           <img :src="text.video3Img" class="idol-info idol-info-2">
           <p class="idol-name idol-name-3">{{text.video3Name}}</p>
+        </div>
+        <div class="idol-desc scrollReveal">
+          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_video_4.png" class="idol-video">
+          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_7.png" v-if="lan == 'zh-cn'" class="idol-info idol-info-2">
+          <p class="idol-name idol-name-3">{{text.video4Name}}</p>
         </div>
       </div>
       <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/bg_1.png" class="bg-img">
@@ -66,21 +71,21 @@
         <p class="groupy-desc scrollReveal" v-html="text.groupTitleDesc"></p>
         <ul class="groupy-desc-img groupy-desc-img-2 width1200 scrollReveal">
           <li>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan"><img :src="text.idol1Img" class="desc-img"></router-link>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan" class="groupy-h4">{{text.idol1Name}}</router-link>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol1Desc"></router-link>
+            <router-link :to="'/idolGroup_group?id=50&lan='+this.lan"><img :src="text.idol1Img" class="desc-img"></router-link>
+            <router-link :to="'/idolGroup_group?id=50&lan='+this.lan" class="groupy-h4">{{text.idol1Name}}</router-link>
+            <router-link :to="'/idolGroup_group?id=50&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol1Desc"></router-link>
             <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=1&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
           </li>
           <li>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan"><img :src="text.idol2Img" class="desc-img"></router-link>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan" class="groupy-h4">{{text.idol2Name}}</router-link>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol2Desc"></router-link>
+            <router-link :to="'/idolGroup_group?id=32&lan='+this.lan"><img :src="text.idol2Img" class="desc-img"></router-link>
+            <router-link :to="'/idolGroup_group?id=32&lan='+this.lan" class="groupy-h4">{{text.idol2Name}}</router-link>
+            <router-link :to="'/idolGroup_group?id=32&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol2Desc"></router-link>
             <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=1&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
           </li>
          <li>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan"><img :src="text.idol3Img" class="desc-img"></router-link>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan" class="groupy-h4">{{text.idol3Name}}</router-link>
-            <router-link :to="'/idolGroup_group?id=1&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol3Desc"></router-link>
+            <router-link :to="'/idolGroup_group?id=42&lan='+this.lan"><img :src="text.idol3Img" class="desc-img"></router-link>
+            <router-link :to="'/idolGroup_group?id=42&lan='+this.lan" class="groupy-h4">{{text.idol3Name}}</router-link>
+            <router-link :to="'/idolGroup_group?id=42&lan='+this.lan" class="desc-p desc-p-2" v-html="text.idol3Desc"></router-link>
             <div class="idol-more group-translateX"><router-link :to="'/idolGroup_group?id=1&lan='+this.lan" :data-hover="text.member"><span><em>{{text.member}}</em><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_1.png"></span></router-link></div>
           </li>
         </ul>
@@ -168,7 +173,7 @@
       <!-- download -->
       <div class="download" id="download">
         <div class="download-content width1200 scrollReveal">
-          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_6.png" class="product-img">
+          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_6.jpg" class="product-img">
           <div class="site-content">
             <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_groupy.png" class="icon_groupy">
             <div class="site-desc" :class="{'site-desc-letter-spacing':lan=='zh-cn'}"><span v-html="text.site"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_star_1.png" class="img_star img_star_1"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_star_2.png" class="img_star img_star_2"></div>
@@ -306,11 +311,12 @@ export default {
         productTitle: '应用介绍',
         productTitleDesc: 'Groupy是一个日系少女偶像的梦想应援平台<br>在这里，你可看到少女偶像的独家短视频，时刻跟踪她的消息<br>为她疯狂打CALL争取更多曝光机会，守护她的小小梦想。',
         video1Img: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_1.png',
-        video1Name: 'ID：鈴原知花',
+        video1Name: 'ID：みのわみのり',
         video2Img: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_2.png',
         video2Name: 'ID：あおい@Ariel Project',
         video3Img: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_3.png',
-        video3Name: 'ID：TSD陈墨岚',
+        video3Name: 'ID：橘 莉子(りぃちゃん)',
+        video4Name: 'ID：渡邊ちこ(notall)',
         groupTitle: '入驻偶像',
         groupTitleDesc: 'APP已有大量小偶像入驻<br>妹子们每天都在更新视频<br>努力给饭们带来治愈的笑容和有趣的生活日常镜头',
         idol1Img: 'http://groupyupload2.oss-cn-hongkong.aliyuncs.com/organization_post/Shine%20Fine%20Movement.jpg',
@@ -352,7 +358,7 @@ export default {
   },
   methods: {
     changeInfo() {
-      if(this.lan === 'zh-cn') {
+      if(this.lan == 'zh-cn') {
         this.text = {
           banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
@@ -367,11 +373,12 @@ export default {
           productTitle: '应用介绍',
           productTitleDesc: 'Groupy是一个日系少女偶像的梦想应援平台<br>在这里，你可看到少女偶像的独家短视频，时刻跟踪她的消息<br>为她疯狂打CALL争取更多曝光机会，守护她的小小梦想。',
           video1Img: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_1.png',
-          video1Name: 'ID：鈴原知花',
+          video1Name: 'ID：みのわみのり',
           video2Img: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_2.png',
           video2Name: 'ID：あおい@Ariel Project',
           video3Img: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_3.png',
-          video3Name: 'ID：TSD陈墨岚',
+          video3Name: 'ID：橘 莉子(りぃちゃん)',
+          video4Name: 'ID：渡邊ちこ(notall)',
           groupTitle: '入驻偶像',
           groupTitleDesc: 'APP已有大量小偶像入驻<br>妹子们每天都在更新视频<br>努力给饭们带来治愈的笑容和有趣的生活日常镜头',
           idol1Img: 'http://groupyupload2.oss-cn-hongkong.aliyuncs.com/organization_post/Shine%20Fine%20Movement.jpg',
@@ -424,11 +431,12 @@ export default {
           productTitle: 'アプリ紹介',
           productTitleDesc: 'Groupyとはファン向けのアイドル応援アプリです<br>Groupyでしかないアイドルのプライベート動画を視聴して推しメンを応援しましょう！<br>人気アイドルは、雑誌&ライブの出演・中国進出等のチャンスを獲得できます',
           video1Img: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_1.png',
-          video1Name: 'ID：鈴原知花',
+          video1Name: 'ID：みのわみのり',
           video2Img: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_2.png',
           video2Name: 'ID：あおい@Ariel Project',
           video3Img: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_3.png',
-          video3Name: 'ID：TSD陈墨岚',
+          video3Name: 'ID：橘 莉子(りぃちゃん)',
+          video4Name: 'ID：渡邊ちこ(notall)',
           groupTitle: '配信アイドル',
           groupTitleDesc: 'Groupy配信アイドル続々追加中<br>毎日動画を更新し<br>癒される笑顔や面白い内容をご提供',
           idol1Img: 'http://groupyupload2.oss-cn-hongkong.aliyuncs.com/organization_post/Shine%20Fine%20Movement.jpg',

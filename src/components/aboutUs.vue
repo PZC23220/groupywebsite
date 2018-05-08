@@ -82,7 +82,7 @@ export default {
   },
   methods: {
     changeInfo() {
-      if(this.lan === 'zh-cn') {
+      if(this.lan == 'zh-cn') {
         this.text = {
           index: '首页',
           aboutUs: '关于我们',

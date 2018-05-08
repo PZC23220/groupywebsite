@@ -8,7 +8,7 @@
           <router-link :to="'/index?lan='+lan" class="tabs-groupy-icon"><img src="http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/Groupywebsite/icon_groupy_128.png" alt=""></router-link>
           <a href="http://activity.groupy.vip/GroupyIdolFestival201805/index.html" target="_black" class="tabs-li tabs-li-idolFestival">
             <p class="tab-title">{{text.idolFestival}}</p>
-            <p class="tab-desc">Idol Festival</p>
+            <p class="tab-desc">Latest</p>
           </a >
           <router-link :to="'/idolGroup?lan='+lan" class="tabs-li tabs-li-idolGroup">
             <p class="tab-title">{{text.idolGroup}}</p>
@@ -29,7 +29,7 @@
           <span class="activeBorder"></span>
         </nav>
         <div class="right">
-          <router-link :to="'/joinUs?lan='+lan" class="changeLan cursor">{{text.joinUs}}</router-link>
+          <router-link v-if="lan == 'zh-cn'" :to="'/joinUs?lan='+lan" class="changeLan cursor">{{text.joinUs}}</router-link>
           <button class="changeLan cursor" @click="changeLan()">{{text.lan}}</button>
           <a id="nav_bar" @click="showNav()" class="cursor"><span></span></a>
         </div>
@@ -39,7 +39,7 @@
       <nav class="navs">
          <a href="http://activity.groupy.vip/GroupyIdolFestival201805/index.html" @click="toPath()" target="_black" class="tabs-li tabs-li-idolFestival router-link-active">
           <p class="tab-title">{{text.idolFestival}}</p>
-          <p class="tab-desc">Idol Festival</p>
+          <p class="tab-desc">Latest</p>
         </a >
         <button @click="toPath('idolGroup')" class="tabs-li navs-pink tabs-li-idolGroup router-link-active">
           <p class="tab-title">{{text.idolGroup}}</p>
@@ -58,7 +58,7 @@
           <p class="tab-desc">About Us</p>
         </button>
         <div class="tabs-li navs-none">
-          <button @click="toPath('/joinUs')" class="changeLan cursor router-link-active">{{text.joinUs}}</button>
+          <button v-if="lan == 'zh-cn'" @click="toPath('/joinUs')" class="changeLan cursor router-link-active">{{text.joinUs}}</button>
           <button class="changeLan cursor" @click="changeLan()">{{text.lan}}</button>
         </div>
       </nav>
@@ -78,10 +78,10 @@
         </li>
         <li>
           <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_sia.png">
-          <p class="qr-desc"><span>{{text.weiboTitle}}</span><a href="">{{text.weiboDesc}}</a></p>
+          <p class="qr-desc"><span>{{text.weiboTitle}}</span><a href="https://weibo.com/Groupy" target="_black">{{text.weiboDesc}}</a></p>
         </li>
       </ul>
-      <p class="protocol"><a href="">{{text.protocol}}</a><a href="">{{text.privacyPolicy}}</a></p>
+      <p class="protocol"><router-link :to="'/rule?lan='+lan">{{text.protocol}}</router-link><router-link :to="'/privacy_policy?lan='+lan">{{text.privacyPolicy}}</router-link></p>
       <p class="company" v-if="lan == 'zh-cn'">{{text.copyright}}</p>
     </div>
     <!-- footer -->
@@ -97,7 +97,7 @@ export default {
       lan: '',
       navWindowShow: false,
       text: {
-        idolFestival: '5月偶像祭',
+        idolFestival: '最新活动',
         idolGroup: '入驻爱豆',
         event: '活动现场',
         news: '大事记',
@@ -150,9 +150,9 @@ export default {
       }
     },
     changeInfo() {
-      if(this.lan === 'zh-cn') {
+      if(this.lan == 'zh-cn') {
         this.text = {
-          idolFestival: '5月偶像祭',
+          idolFestival: '最新活动',
           idolGroup: '入驻爱豆',
           event: '活动现场',
           news: '大事记',
@@ -173,7 +173,7 @@ export default {
         }
       }else {
         this.text = {
-          idolFestival: 'アイドル祭',
+          idolFestival: '最近イベント',
           idolGroup: '配信アイドル',
           event: 'イベント現場',
           news: 'お知らせ',
@@ -198,9 +198,14 @@ export default {
   created: function() {
     let ua = navigator.userAgent.toLowerCase();
     let _lan = (navigator.browserLanguage || navigator.language).toLowerCase();
+    console.log(_lan)
     this.lan = _lan;
     if(this.$route.query.lan) {
       this.lan = this.$route.query.lan;
+    }else {
+        let id = this.$route.query.id;
+        let nationality = this.$route.query.nationality;
+        this.$router.push({query:{id: id,nationality: nationality,lan: this.lan}})
     }
     this.changeInfo();
     }

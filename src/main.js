@@ -4,8 +4,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueAwesomeSwiper from 'vue-awesome-swiper';
+import VueLazyload from 'vue-lazyload'
 require('swiper/dist/css/swiper.css')
 Vue.use(VueAwesomeSwiper);
+
+Vue.use(VueLazyload, {
+        preLoad: 1,
+        error: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/default_img.png',
+        loading: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/default_img.png',
+        attempt: 1
+})
 
 Vue.config.productionTip = false
 

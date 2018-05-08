@@ -54,6 +54,7 @@ export default {
   data () {
     return {
       lan: '',
+      t
     }
   },
   methods: {

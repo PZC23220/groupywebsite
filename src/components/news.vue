@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     changeInfo() {
-      if(this.lan === 'zh-cn') {
+      if(this.lan == 'zh-cn') {
         this.text = {
           newsTitle: '大事记',
 

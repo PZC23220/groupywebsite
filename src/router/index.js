@@ -20,6 +20,9 @@ import news_desc from '@/components/news/desc'
 import aboutUs from '@/components/aboutUs'
 import joinUs from '@/components/joinUs'
 
+import rule from '@/components/rule'
+import privacy_policy from '@/components/privacy_policy'
+
 Vue.use(Router)
 
 export default new Router({
@@ -62,6 +65,12 @@ export default new Router({
     },{
         path: '/joinUs',
         component: joinUs,
+    },{
+        path: '/rule',
+        component: rule,
+    },{
+        path: '/privacy_policy',
+        component: privacy_policy,
     },{
         path: '/index',
         component: index,

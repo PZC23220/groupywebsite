@@ -133,7 +133,7 @@ export default {
       this.groupSwiper3.slideTo(val, 500, false)
     },
     changeInfo() {
-      if(this.lan === 'zh-cn') {
+      if(this.lan == 'zh-cn') {
         this.text = {
           index: '首页',
           eventTitle: '入驻爱豆',
