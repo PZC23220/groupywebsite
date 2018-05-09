@@ -10,8 +10,8 @@ Vue.use(VueAwesomeSwiper);
 
 Vue.use(VueLazyload, {
         preLoad: 1,
-        error: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/default_img.png',
-        loading: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/default_img.png',
+        error: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/default_img.jpg',
+        loading: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/default_img.jpg',
         attempt: 1
 })
 

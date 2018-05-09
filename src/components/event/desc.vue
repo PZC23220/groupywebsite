@@ -162,6 +162,37 @@ export default {
               Groupy爱豆新年祭活动回顾到此也算是画上句点啦。2018，Groupy祝大家在新的一年里事事顺遂。新的一年，Groupy也会一直陪大家一同成长进步，努力举办更多精彩活动继续跟大家一起嗨！！！`
             }
             break;
+          case 5:
+            this.article = {
+              title: '~萌色倾城偶像祭~ 五一就要燥起来！为小偶像疯狂应援！',
+              time: '2018.05.01',
+              content: `这五一几天的偶像活动，各位粉丝觉得可还行？<br><br>
+              现在G君还在整理着一大堆的图片，好看的图真的太多了，需要仔细筛选。那么现在就先用一部分图来回顾一下这几天的内容吧！<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/1.webp"/><br><br>
+              4月29号的萤火虫漫展大舞台，叶月飞鸟、TOKYO SWEET PARTY、Shine Fine Movement的表演真的是看不够啊！当然也谢谢现场粉丝们给力的应援了！<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/2.webp"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/6.webp"/><br><br>
+              某位摄影师大佬提供的莉子返图，真是当天萤火虫漫展的一道亮丽风景线呢。<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/7.webp"/><br><br>
+              漫展结束后，成员们赶往直播节目，各种有趣段子让G君好好见识了日本偶像的综艺力。最后全员的纪念合影也是非常逗了。<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/9.webp"/><br><br>
+              结束一天的工作，成员自由活动的自拍，non酱和rina笑得像花儿一样。<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/10.webp"/><br>
+              4月30号，在Mao livehouse举行的全天live演唱会，简直是嗨翻天！除了TSP、叶月、SFM以外，西瓜偶像夏芽優李也有演出！<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/11.webp"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/12.webp"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/13.webp"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/14.webp"/><br><br>
+              无论是live还是物贩合影，粉丝交流会，都让大家过足了瘾！<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/15.webp"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/16.webp"/><br><br>
+              5月1日，恒宝广场的商演，狠狠地让路人们见识了日本偶像和粉丝互动的魅力。<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/17.webp"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/18.webp"/><br><br>
+              之后的粉丝同游会，大家在环球魔幻世界也度过了一个非常愉快的下午，为本次偶像祭画上了一个圆满的句号。<br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/19.webp"/><br><br>
+              这几天的行程，对偶像对粉丝们都是回忆满满的三天，之后G君会继续细细聊聊这段时间的一些花絮、趣事、秘话，希望大家也会继续支持啦~`
+            }
           default:
             console.log(this.$route.query.id);
             break;
@@ -261,6 +292,36 @@ export default {
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-22.webp"/><br>
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-23.webp"/><br>
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-24.webp"/>`
+            }
+            break;
+          case 5:
+            this.article = {
+              title: '~GroupyIdolFestival~ 5月イベント大変盛り上げりました！',
+              time: '2018.05.01',
+              content: `
+              <p style="text-align: center; font-size: 0.8rem; font-weight: 600;">4.29 FFACG</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/1.jpg"/><br>
+              <p style="text-align: center;">Shine Fine Movement-ライブの素敵な瞬間</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/2.jpg"/><br>
+              <p style="text-align: center;">Tokyo Sweet Party-ライブの素敵な瞬間</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/3.jpg"/><br>
+              <p style="text-align: center;">オフショット</p><br><br>
+              <p style="text-align: center; font-size: 0.8rem; font-weight: 600;">4.30 Groupy Live</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/4.jpg"/><br>
+              <p style="text-align: center;">Shine Fine Movement-ライブの素敵な瞬間</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/5.jpg"/><br>
+              <p style="text-align: center;">Tokyo Sweet Party-ライブの素敵な瞬間</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/6.jpg"/><br>
+              <p style="text-align: center;">夏芽優李-ライブの素敵な瞬間</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/7.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/8.jpg"/><br>
+              <p style="text-align: center;">葉月あすか-ライブの素敵な瞬間</p><br><br>
+              <p style="text-align: center; font-size: 0.8rem; font-weight: 600;">5.1 ショッピングモールライブ</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/9.jpg"/><br>
+              <p style="text-align: center;">集合写真</p><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/liveImages/201805live/10.jpg"/><br>
+              <p style="text-align: center;">皆さんの手形プレート</p><br><br>
+              `
             }
             break;
           default:
