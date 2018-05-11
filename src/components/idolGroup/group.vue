@@ -9,7 +9,7 @@
         <a target="_black" :href="'https://weibo.com/u/'+idolInfo.idolList[0].snsUidWeibo" v-if="idolInfo.idolList.length == 1 && idolInfo.idolList[0].snsUidWeibo" class="idol-sns idol-sns-desc"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_weibo.png"></a>
         <p class="group-title2 scrollReveal width1000">{{idolInfo.introduce}}</p>
         <img v-lazy="idolInfo.img" class="group-img scrollReveal">
-        <div class="group-idol scrollReveal" v-if="idolInfo.idolList && idolInfo.idolList.length > 1"><span></span><em>入驻爱豆</em><span></span></div>
+        <div class="group-idol scrollReveal" v-if="idolInfo.idolList && idolInfo.idolList.length > 1"><span></span><em>{{text.idols}}</em><span></span></div>
         <ul class="group-list" v-if="idolInfo.idolList && idolInfo.idolList.length > 1">
           <li class="list-content scrollReveal" v-for="idol in idolInfo.idolList">
               <p class="group-logo"><span :style="'background-image:url('+ idol.avatar +');'"></span></p>
@@ -25,12 +25,12 @@
       </div>
       <div class="groupy-default"  v-if="!idolInfo.title && index == 1">
         <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_default_1.png">
-        <p>网络错误，请稍后再试</p>
+        <p>{{text.errMsg}}</p>
       </div>
       <div class="group-relative scrollReveal">
-        <h5>日本爱豆</h5>
+        <h5>{{text.japan}}</h5>
         <div class="group-btns group-translateX"><router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" :data-hover="idol.name" v-for="(idol,$index) in idolList1" :key="$index"><span>{{idol.name}}</span></router-link></div>
-        <h5>中国爱豆</h5>
+        <h5>{{text.china}}</h5>
         <div class="group-btns group-translateX"><router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" :data-hover="idol.name" v-for="(idol,$index) in idolList2" :key="$index"><span>{{idol.name}}</span></router-link></div>
       </div>
     </div>
@@ -64,6 +64,10 @@ export default {
         index: 'ホーム',
         index2: '配信アイドル',
         eventTitle: '基本情報',
+        idols: '配信アイドル',
+        errMsg: 'エラーが発生しました，しばらくしてからもう一度お試しください',
+        japan: '日本人アイドル',
+        china: '中国人アイドル'
       },
       idol: {},
       idolInfo: {
@@ -83,6 +87,10 @@ export default {
           index: '首页',
           index2: '入驻爱豆',
           eventTitle: '详情',
+          idols: '入驻爱豆',
+          errMsg: '服务器出错，请稍后重试',
+          japan: '日本爱豆',
+          china: '国内爱豆'
         }
         this.idolInfo = {
           title: this.idol.nameChinese,
@@ -95,6 +103,10 @@ export default {
           index: 'ホーム',
           index2: '配信アイドル',
           eventTitle: '基本情報',
+          idols: '配信アイドル',
+          errMsg: 'エラーが発生しました，しばらくしてからもう一度お試しください',
+          japan: '日本人アイドル',
+          china: '中国人アイドル'
         }
         this.idolInfo = {
           title: this.idol.name,
@@ -103,6 +115,35 @@ export default {
           idolList: this.idol.idol
         }
       }
+    },
+    getGroupList(type) {
+      let self = this;
+      http.get(`http://api.groupy.vip:8080/group/getListToWeb?type=${type}`).then(function(res){
+        self.idx = 1;
+        if(res.data.orgList){
+          if(type == 'Japan') {
+            self.idolList1 = res.data.orgList;
+          }else {
+            self.idolList2 = res.data.orgList;
+          }
+        }else {
+          if(type == 'Japan') {
+            self.idolList1 = [];
+            self.len1 = 0;
+          }else {
+            self.idolList2 = [];
+            self.len2 = 0;
+          }
+        }
+
+      }).catch(function(err){
+        self.idolInfo = {
+          title: '',
+          introduce: '',
+          img: '',
+          idolList: []
+        }
+      })
     },
     getGroupInfo(id) {
       let self = this;
@@ -165,8 +206,6 @@ export default {
   computed: {
   },
   created: function() {
-    this.idolList1 = japanIdols;
-    this.idolList2 = chinaIdols;
     let self = this;
     setTimeout(function() {
       let ele = document.querySelector('.content');
@@ -175,6 +214,8 @@ export default {
     self.lan = self.$route.query.lan;
     self.changeInfo();
     self.getGroupInfo();
+    self.getGroupList('Japan');
+    self.getGroupList('China');
   }
 }
 </script>

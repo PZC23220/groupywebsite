@@ -15,24 +15,24 @@
       <!-- <div class="banner-page"><span class="bannerTabs active cursor" @click="changeSwipers(1)"></span><span class="bannerTabs cursor" @click="changeSwipers(2)"></span></div> -->
       <!-- BACKGROUND -->
       <div class="background">
-        <h2 class="groupy-h2 scrollReveal"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_1.png"><span>BACKGROUND</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_1.png"></h2>
+        <h2 class="groupy-h2 scrollReveal"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_1.png"><span>{{text.background}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_1.png"></h2>
         <h3 class="groupy-h3 scrollReveal"><span>{{text.bgTitle}}</span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_2.png"></h3>
         <p class="groupy-desc scrollReveal" v-html="text.bgTitleDesc"></p>
         <ul class="groupy-desc-img width1200 scrollReveal">
-          <li>
+         <li>
             <img v-lazy="text.callImg" class="desc-title">
-            <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_3.png" class="desc-img">
-            <p class="desc-p">{{text.callDesc}}</p>
+            <img v-lazy="text.callImgs" class="desc-img">
+            <p class="desc-p" v-html="text.callDesc"></p>
           </li>
           <li>
             <img v-lazy="text.liveImg" class="desc-title">
-            <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_4.png" class="desc-img">
-            <p class="desc-p">{{text.liveDesc}}</p>
+            <img v-lazy="text.liveImgs" class="desc-img">
+            <p class="desc-p" v-html="text.liveDesc"></p>
           </li>
           <li>
             <img v-lazy="text.bugImg" class="desc-title">
-            <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_5.png" class="desc-img">
-            <p class="desc-p">{{text.bugDesc}}</p>
+            <img v-lazy="text.bugImgs" class="desc-img">
+            <p class="desc-p" v-html="text.bugDesc"></p>
           </li>
         </ul>
       </div>
@@ -99,6 +99,14 @@
           <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_5.png" @click="clickLeft()" class="event-btn btn-left cursor">
           <swiper :options="swiperOption2" ref="eventSwiper" class="swiper-content2">
             <swiper-slide class="event-slides">
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img :src="text.event7Img" class="event-img"></router-link>
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event7Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
+            </swiper-slide>
+            <swiper-slide class="event-slides">
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img :src="text.event8Img" class="event-img"></router-link>
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event8Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
+            </swiper-slide>
+            <swiper-slide class="event-slides">
               <router-link :to="'/news_desc?id=3&lan='+lan" class="event-img-content"><img v-lazy="text.event1Img" class="event-img"></router-link>
               <router-link :to="'/news_desc?id=3&lan='+lan" class="event-desc"><span v-html="text.event1Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
@@ -106,10 +114,6 @@
               <router-link :to="'/news_desc?id=3&lan='+lan" class="event-img-content"><img v-lazy="text.event2Img" class="event-img"></router-link>
               <router-link :to="'/news_desc?id=3&lan='+lan" class="event-desc"><span v-html="text.event2Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
-           <!--  <swiper-slide class="event-slides">
-              <router-link :to="'/news_desc?id=3&lan='+lan" class="event-img-content"><img v-lazy="text.event3Img" class="event-img"></router-link>
-              <router-link :to="'/news_desc?id=3&lan='+lan" class="event-desc"><span v-html="text.event3Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
-            </swiper-slide> -->
             <swiper-slide class="event-slides">
               <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img v-lazy="text.event4Img" class="event-img"></router-link>
               <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event4Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
@@ -117,18 +121,6 @@
             <swiper-slide class="event-slides">
               <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img v-lazy="text.event5Img" class="event-img"></router-link>
               <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event5Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
-            </swiper-slide>
-           <!--  <swiper-slide class="event-slides">
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img v-lazy="text.event6Img" class="event-img"></router-link>
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event6Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
-            </swiper-slide> -->
-            <swiper-slide class="event-slides">
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img v-lazy="text.event7Img" class="event-img"></router-link>
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event7Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
-            </swiper-slide>
-            <swiper-slide class="event-slides">
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img v-lazy="text.event8Img" class="event-img"></router-link>
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event8Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
           </swiper>
           <div class="banner-page event-page"><span class="eventTabs active cursor" @click="changeSwipers(2)"></span><span class="eventTabs cursor" @click="changeSwipers(4)"></span><span class="eventTabs cursor" @click="changeSwipers(6)"></span></div>
@@ -138,6 +130,14 @@
           <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_5.png" @click="clickLeft2()" class="event-btn btn-left cursor">
           <swiper :options="swiperOption3" ref="eventSwiper2" class="swiper-content2">
             <swiper-slide class="event-slides">
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img :src="text.event7Img" class="event-img"></router-link>
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event7Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
+            </swiper-slide>
+            <swiper-slide class="event-slides">
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img v-lazy="text.event8Img" class="event-img"></router-link>
+              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event8Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
+            </swiper-slide>
+            <swiper-slide class="event-slides">
               <router-link to="/event_desc" class="event-img-content"><img v-lazy="text.event1Img" class="event-img"></router-link>
               <router-link to="/event_desc" class="event-desc"><span v-html="text.event1Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
@@ -146,20 +146,12 @@
               <router-link to="/event_desc" class="event-desc"><span v-html="text.event2Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
             <swiper-slide class="event-slides">
-              <router-link to="/event_desc" class="event-img-content"><img v-lazy="text.event3Img" class="event-img"></router-link>
-              <router-link to="/event_desc" class="event-desc"><span v-html="text.event3Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
-            </swiper-slide>
-            <swiper-slide class="event-slides">
               <router-link to="/event_desc" class="event-img-content"><img v-lazy="text.event4Img" class="event-img"></router-link>
               <router-link to="/event_desc" class="event-desc"><span v-html="text.event4Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
             <swiper-slide class="event-slides">
               <router-link to="/event_desc" class="event-img-content"><img v-lazy="text.event5Img" class="event-img"></router-link>
               <router-link to="/event_desc" class="event-desc"><span v-html="text.event5Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
-            </swiper-slide>
-            <swiper-slide class="event-slides">
-              <router-link to="/event_desc" class="event-img-content"><img v-lazy="text.event6Img" class="event-img"></router-link>
-              <router-link to="/event_desc" class="event-desc"><span v-html="text.event6Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
           </swiper>
            <div class="banner-page event-page"><span class="eventTabs2 active cursor" @click="changeSwipers(1)"></span><span class="eventTabs2 cursor" @click="changeSwipers(2)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(3)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(4)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(5)"></span></span><span class="eventTabs2 cursor" @click="changeSwipers(6)"></span></div>
@@ -305,10 +297,14 @@ export default {
         banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
         banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
         bgTitle: '日系偶像应援',
+        background: 'BACKGROUND',
         bgTitleDesc: '在日本，“偶像”是一门职业。比起闪闪发亮的明星，他们显得异常平凡,<br>通往梦想的道路更是崎岖，需要依托粉丝的应援来成长。',
         callImg: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_4.png',
+        callImgs: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_3.png',
         liveImg: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_5.png',
+        liveImgs: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_4.png',
         bugImg: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_6.png',
+        bugImgs: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_5.png',
         callDesc: 'wota艺的一种，在日系live中，粉丝据歌曲的歌词中的要素喊口号，包括跟着歌词联动、复唱、回应。',
         liveDesc: '日系少女偶像的live更强调气氛与互动，开创了独特应援文化，粉丝通过呐喊和肢体，配合歌曲元素与偶像一起嗨！',
         bugDesc: 'live表演后，少女偶像将会现场售卖周边以及合影券、握手券、聊天券，与粉丝近距离接触。',
@@ -373,10 +369,14 @@ export default {
           banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           bgTitle: '日系偶像应援',
+          background: 'BACKGROUND',
           bgTitleDesc: '在日本，“偶像”是一门职业。比起闪闪发亮的明星，他们显得异常平凡,<br>通往梦想的道路更是崎岖，需要依托粉丝的应援来成长。',
           callImg: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_4.png',
+          callImgs: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_3.png',
           liveImg: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_5.png',
+          liveImgs: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_4.png',
           bugImg: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_6.png',
+          bugImgs: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_5.png',
           callDesc: 'wota艺的一种，在日系live中，粉丝据歌曲的歌词中的要素喊口号，包括跟着歌词联动、复唱、回应。',
           liveDesc: '日系少女偶像的live更强调气氛与互动，开创了独特应援文化，粉丝通过呐喊和肢体，配合歌曲元素与偶像一起嗨！',
           bugDesc: 'live表演后，少女偶像将会现场售卖周边以及合影券、握手券、聊天券，与粉丝近距离接触。',
@@ -436,14 +436,18 @@ export default {
         this.text = {
           banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
-          bgTitle: 'アイドル応援',
-          bgTitleDesc: 'さまざまなアイドルグループが次々と誕生しては消えていくアイドル戦国時代に、<br>ファンたちは推しメンが夢が叶うように、全力で推しメンを応援しています。',
-          callImg: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_4.png',
-          liveImg: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_5.png',
-          bugImg: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_6.png',
-          callDesc: 'ライブ現場において，ファンが，曲に合わせて「オー！オー！」のような大声を出したり，激しく何度もジャンプしたり，棒状のライトを振り回すことでライブを楽しみます。',
-          liveDesc: 'アイドルの開催されたライブを参加して、推しメンと一緒に現場を盛り上げます。',
-          bugDesc: 'ライブ終了後、アイドルは物販・特典会を開催し、チェキ券・握手券を購入したファンと親密にコミュニケーションします。',
+          bgTitle: '市場可能性まだ大きい',
+          background: 'MARKETING',
+          bgTitleDesc: '中国アイドル文化産業の発展に伴い、<br>中国アイドル業界は「急激発展期」に突入した。',
+          callImg: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_7.png',
+          callImgs: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/img_7.png',
+          liveImg: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_8.png',
+          liveImgs: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/img_8.png',
+          bugImg: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_9.png',
+          bugImgs: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/img_9.png',
+          callDesc: '韓国発のアイドル育成番組『Produce101』などの大ブレイクによって、アイドルグループへの関心が高まっていた。また、中国では「二次元（アニメ・漫画・ゲームなどをまとめたジャンル）」文化はとても人気があり、その「二次元」の派生文化としてのアイドル文化もだんだん注目を集めていく。',
+          liveDesc: 'アイドルを応援するために、若者たちは多くの時間やお金を注ぎ込んでいる。例えば、中国アイドルSNH482017年の総選挙では、投票にかかった総額のみが1億元を超えた。 ',
+          bugDesc: '中国のアイドル市場自体がまだ未熟であり、日本に較べアイドルグループの数もまだ飽和状態ではないので、これから大勢のファンの様々なニーズを満たすために、より多くのアイドルグループを導入する必要がある。',
           productTitle: 'アプリ紹介',
           productTitleDesc: 'Groupyとはファン向けのアイドル応援アプリです<br>Groupyでしかないアイドルのプライベート動画を視聴して推しメンを応援しましょう！<br>人気アイドルは、雑誌&ライブの出演・中国進出等のチャンスを獲得できます',
           video1Img: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_1.png',
