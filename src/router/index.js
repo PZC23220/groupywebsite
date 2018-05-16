@@ -40,9 +40,31 @@ export default new Router({
         ]
     }, {
       path: '/index_chinese',
-      redirect: 'index'
+      redirect: 'index',
+      children: [
+        {path: '', redirect: 'chinese'},
+        {path: '/index_chinese/chinese', redirect: 'index'},
+        {path: '/index_chinese/detail', redirect: 'index'},
+        {path: '/index_chinese/chinese_videos',redirect: 'index'},
+        {path: '/index_chinese/chinese_idol',redirect: 'index'},
+        {path: '/index_chinese/chinese_rule',redirect: 'index'},
+        {path: '/index_chinese/chinese_privacy_policy',redirect: 'index'}
+      ]
     }, {
       path: '/index_japanese',
+      redirect: 'index',
+      children: [
+        {path: '', redirect: 'japanese'},
+        {path: '/index_japanese/japanese',redirect: 'index'},
+        {path: '/index_japanese/japanese_videos',redirect: 'index'},
+        {path: '/index_japanese/japanese_detail',redirect: 'index'},
+        // {path: '/index_japanese/japanese_registered',component: japanese_registered},
+        {path: '/index_japanese/japanese_idol',redirect: 'index'},
+        {path: '/index_japanese/japanese_rule',redirect: 'index'},
+        {path: '/index_japanese/japanese_privacy_policy',redirect: 'index'}
+      ]
+    }, {
+      path: '/japanese_registered',
       redirect: 'index'
     },{
         path: '/idolGroup',
