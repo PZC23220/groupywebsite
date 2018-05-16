@@ -40,32 +40,33 @@ export default new Router({
         ]
     }, {
       path: '/index_chinese',
-      redirect: 'index',
+      component: index,
       children: [
-        {path: '', redirect: 'chinese'},
-        {path: '/index_chinese/chinese', redirect: 'index'},
-        {path: '/index_chinese/detail', redirect: 'index'},
-        {path: '/index_chinese/chinese_videos',redirect: 'index'},
-        {path: '/index_chinese/chinese_idol',redirect: 'index'},
-        {path: '/index_chinese/chinese_rule',redirect: 'index'},
-        {path: '/index_chinese/chinese_privacy_policy',redirect: 'index'}
+        {path: '', component: index},
+        {path: '/index_chinese/chinese', component: index},
+        {path: '/index_chinese/detail', component: index},
+        {path: '/index_chinese/chinese_videos',component: index},
+        {path: '/index_chinese/chinese_idol',component: index},
+        {path: '/index_chinese/chinese_rule',component: index},
+        {path: '/index_chinese/chinese_privacy_policy',component: index}
       ]
     }, {
       path: '/index_japanese',
-      redirect: 'index',
+      component: index,
       children: [
-        {path: '', redirect: 'japanese'},
-        {path: '/index_japanese/japanese',redirect: 'index'},
-        {path: '/index_japanese/japanese_videos',redirect: 'index'},
-        {path: '/index_japanese/japanese_detail',redirect: 'index'},
+        {path: '', component: index},
+        {path: '/index_japanese/index',component: index},
+        {path: '/index_japanese/japanese',component: index},
+        {path: '/index_japanese/japanese_videos',component: index},
+        {path: '/index_japanese/japanese_detail',component: index},
         // {path: '/index_japanese/japanese_registered',component: japanese_registered},
-        {path: '/index_japanese/japanese_idol',redirect: 'index'},
-        {path: '/index_japanese/japanese_rule',redirect: 'index'},
-        {path: '/index_japanese/japanese_privacy_policy',redirect: 'index'}
+        {path: '/index_japanese/japanese_idol',component: index},
+        {path: '/index_japanese/japanese_rule',component: index},
+        {path: '/index_japanese/japanese_privacy_policy',component: index}
       ]
     }, {
       path: '/japanese_registered',
-      redirect: 'index'
+      component: index
     },{
         path: '/idolGroup',
         component: idolGroup,
