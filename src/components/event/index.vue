@@ -5,36 +5,6 @@
       <p class="page-desc width1200"><router-link :to="'/index?lan='+lan">{{text.index}}</router-link>&nbsp;&gt;&nbsp;<span>{{text.eventTitle}}</span></p>
       <ul class="event-list">
         <li class="scrollreveal animated fadeIn">
-          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgContent"><img v-lazy="text.event1Img"></router-link>
-          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgTitle" v-html="text.event1Title"></router-link><br>
-          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgDesc">{{text.event1Time}}</router-link>
-        </li>
-        <li class="scrollreveal animated fadeIn">
-          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgContent"><img v-lazy="text.event2Img"></router-link>
-          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgTitle" v-html="text.event2Title"></router-link><br>
-          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgDesc">{{text.event2Time}}</router-link>
-        </li>
-        <li class="scrollreveal animated fadeIn">
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event3Img"></router-link>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event3Title"></router-link><br>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event3Time}}</router-link>
-        </li>
-        <li class="scrollreveal animated fadeIn">
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event4Img"></router-link>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event4Title"></router-link><br>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event4Time}}</router-link>
-        </li>
-        <li class="scrollreveal animated fadeIn">
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event5Img"></router-link>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event5Title"></router-link><br>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event5Time}}</router-link>
-        </li>
-        <li class="scrollreveal animated fadeIn">
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event6Img"></router-link>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event6Title"></router-link><br>
-          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event6Time}}</router-link>
-        </li>
-        <li class="scrollreveal animated fadeIn">
           <router-link :to="'/event_desc?id=5&lan='+lan" class="event-imgContent"><img v-lazy="text.event7Img"></router-link>
           <router-link :to="'/event_desc?id=5&lan='+lan" class="event-imgTitle" v-html="text.event7Title"></router-link><br>
           <router-link :to="'/event_desc?id=5&lan='+lan" class="event-imgDesc">{{text.event7Time}}</router-link>
@@ -63,6 +33,36 @@
           <router-link :to="'/event_desc?id=5&lan='+lan" class="event-imgContent"><img v-lazy="text.event12Img"></router-link>
           <router-link :to="'/event_desc?id=5&lan='+lan" class="event-imgTitle" v-html="text.event7Title"></router-link><br>
           <router-link :to="'/event_desc?id=5&lan='+lan" class="event-imgDesc">{{text.event7Time}}</router-link>
+        </li>
+        <li class="scrollreveal animated fadeIn">
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event3Img"></router-link>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event3Title"></router-link><br>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event3Time}}</router-link>
+        </li>
+        <li class="scrollreveal animated fadeIn">
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event4Img"></router-link>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event4Title"></router-link><br>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event4Time}}</router-link>
+        </li>
+        <li class="scrollreveal animated fadeIn">
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event5Img"></router-link>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event5Title"></router-link><br>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event5Time}}</router-link>
+        </li>
+        <li class="scrollreveal animated fadeIn">
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgContent"><img v-lazy="text.event6Img"></router-link>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgTitle" v-html="text.event6Title"></router-link><br>
+          <router-link :to="'/event_desc?id=4&lan='+lan" class="event-imgDesc">{{text.event6Time}}</router-link>
+        </li>
+        <li class="scrollreveal animated fadeIn">
+          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgContent"><img v-lazy="text.event1Img"></router-link>
+          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgTitle" v-html="text.event1Title"></router-link><br>
+          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgDesc">{{text.event1Time}}</router-link>
+        </li>
+        <li class="scrollreveal animated fadeIn">
+          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgContent"><img v-lazy="text.event2Img"></router-link>
+          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgTitle" v-html="text.event2Title"></router-link><br>
+          <router-link :to="'/event_desc?id=3&lan='+lan" class="event-imgDesc">{{text.event2Time}}</router-link>
         </li>
       </ul>
     </div>

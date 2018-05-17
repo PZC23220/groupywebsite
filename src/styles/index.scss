@@ -7,9 +7,9 @@
 	display: none;
 }
 .banner-content {
-	background-image: url(http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival/bg.png);
-  background-repeat: repeat;
-  background-color: #fdf2ea;
+	background-image: url(http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/background.jpg);
+  // background-repeat: repeat;
+  // background-color: #fdf2ea;
 }
 .banners {
 	width: 100%;
@@ -441,25 +441,33 @@
 			padding: 3px 0 ;
 			overflow: hidden;
 			text-align: left;
+			>a:first-child {
+				float: left;
+				width: 50%;
+				margin-right: 2%;
+			}
+			.groupy-h4, .desc-p-2 {
+				float: right;
+				width: 48%;
+			}
 		}
 	}
 	.desc-img {
-		float: left;
-		width: 55%;
-		margin-right: 2%;
+		width: 100%;
 	}
 	.desc-title {
 		height: 12vw;
-		margin-bottom: 0;
+		margin: 1rem auto;
+		display: block;
 	}
 	.idol-desc {
 		padding: 0 12px;
 	}
-	.desc-p {
-		float: right;
-		width: 42%;
-		padding: 0;
-	}
+	// .desc-p {
+	// 	float: right;
+	// 	width: 42%;
+	// 	padding: 0;
+	// }
 	.idol-name {
 		font-size: 1rem;
 		margin-left: -4vw;
@@ -501,4 +509,26 @@
 		padding: 25px 0;
 	}
 
+}
+@media screen and (max-width:370px) {
+	.groupy-h4 {
+		font-size: 12px;
+	}
+	.desc-p-2 {
+		text-overflow: ellipsis;
+	    display: -webkit-box !important;
+	    -webkit-line-clamp: 3;
+	    -webkit-box-orient: vertical;
+	    overflow: hidden;
+	}
+}
+@media screen and (min-width:1201px) {
+  .banner {
+    background-repeat: repeat;
+  }
+}
+@media screen and (max-width:1200px) {
+  .banner {
+    background-size: cover;
+  }
 }

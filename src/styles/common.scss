@@ -347,65 +347,62 @@ a:focus {
 }
 .changeLan {
 	color: #fff;
-	background: none;
+	background: transparent;
 	border: 0.05rem solid #FFFFFF;
 	height: 1.5rem;
 	line-height: 1.5rem;
 	font-size: 0.8rem;
 	padding: 0 0.75rem;
 	position: relative;
-  transition-duration: .3s;
-  overflow: visible;
-  box-sizing: border-box;
+	  // transition-duration: .3s;
+	  overflow: visible;
+	  box-sizing: border-box;
 	@include inlineBlock;
 	border-radius: 2rem;
 	&:first-child {
 		margin-right: 0.6rem;
 	}
 	border-color: #ffffff;
-  z-index: 0;
+    z-index: 0;
+    transition: color 0.3s ease,
+		background 0s ease;
+}
+// .changeLan:hover {
+//   border-top-color: transparent;
+//   border-right-color: transparent;
+//   border-bottom-color: transparent;
+//   border-left-color: transparent;
+//   transition: border-top-color 0.1s 0s linear,
+// 	border-right-color 0.1s 0.07s linear,
+// 	border-bottom-color 0.1s 0.14s linear,
+// 	border-left-color 0.1s 0.21s linear;
+// }
+.changeLan:before {
+  position: absolute;
+  content: '';
+  background: #ffffff;
+  transition-duration: .3s;
+  z-index: -1;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  width: 0;
+  height: 100%;
+  opacity: 1;
+  border-radius: 2rem;
 }
 .changeLan:hover {
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  transition: border-top-color 0.1s 0s linear,
-	border-right-color 0.1s 0.07s linear,
-	border-bottom-color 0.1s 0.14s linear,
-	border-left-color 0.1s 0.21s linear;
+  color: #EF2E69;
+  background: #ffffff;
+  transition: color 0.3s ease,
+ background 0s 0.3s ease;
 }
-// .changeLan:after {
-//   left: 0;
-//   bottom: 0;
-//   border-top-width: 0.05rem;
-// 	border-radius: 2rem;
-//   transition: border-top-width 0.1s 0.2s,
-// 	height 0.2s 0.1s,
-// 	width 0.2s 0.0s,
-// 	margin 0.2s 0.0s;
-// }
-// .changeLan:after {
-//   box-sizing: border-box;
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-//   content: '';
-//   border: solid 0.05rem #ffffff;
-//   z-index: 2;
-//   margin: 0 0;
-// }
-// .changeLan:hover:after {
-//   width: 60%;
-//   height: 0px;
-//   border-width: 0.05rem;
-//   border-top-width: 0px;
-//   margin: 0 20%;
-//   transition: border-top-width 0.1s 0.0s,
-//   height 0.2s 0.1s,
-//   width  0.2s 0.2s,
-//   margin 0.2s 0.2s;
-// }
+.changeLan:hover:before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
 // news
 .news-list {
 	max-width: 40rem;

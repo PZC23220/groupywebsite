@@ -125,25 +125,25 @@ export default {
               相比萤火虫主舞台，tu凸空间虽稍显“迷你”，但比起空旷的舞台，小型舞台更有日本秋叶原地下偶像Live的感觉，不仅拉近了爱豆与粉丝的距离，更拉近了彼此的心。<br><br>
               本次跨年派对，爱豆们同样为我们带来了精彩纷呈的Live演出，下面请欣赏由G君为大家甄选的一些精彩片段吧！<br><br>
               <p style="text-align: center;">铃原知花</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-1.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-2.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-3.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-4.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-1.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-2.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-3.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-4.jpg"/><br><br>
               <p style="text-align: center;">Wi-Fi-5</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-5.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-6.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-7.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-8.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-5.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-6.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-7.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-8.jpg"/><br><br>
               <br><p style="text-align: center;">放学后Princess</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-9.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-10.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-11.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-12.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-9.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-10.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-11.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-12.jpg"/><br><br>
               <p style="text-align: center;">Ariel Project</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-13.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-14.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-15.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-16.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-13.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-14.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-15.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-16.jpg"/><br><br>
               如何说30号漫展Live的火爆，部分是蹭一些单纯为逛漫展而来的吃瓜群众的人气的话，那么，31号这天跨年Live现场的火爆，完全就是靠真爱粉用爱发电撑起来的了！<br><br>
              下面就让我们来感受下真爱粉的助力吧：<br><br>
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/0.gif"/><br>
@@ -151,14 +151,14 @@ export default {
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/2.gif"/><br><br>
               都说人是一种氛围的动物，这话实在不假。平时走内秀路线的小G，受各位打call大佬和现场氛围的带动，也开始放飞自我，和大家一起尬起舞来了~~<br><br>
               最后，爱豆和我们共度跨年夜，在最后一秒欢闹的倒数声中，在快门按下的那一道闪光中，定格下了你我在2017最后一秒与2018最初一刻的样子，嘴角边一抹抹由衷绽开的微笑。<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-17.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-18.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-19.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-20.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-21.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-22.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-23.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-24.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-17.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-18.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-19.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-20.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-21.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-22.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-23.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-24.jpg"/><br><br>
               Groupy爱豆新年祭活动回顾到此也算是画上句点啦。2018，Groupy祝大家在新的一年里事事顺遂。新的一年，Groupy也会一直陪大家一同成长进步，努力举办更多精彩活动继续跟大家一起嗨！！！`
             }
             break;
@@ -168,29 +168,29 @@ export default {
               time: '2018.05.01',
               content: `这五一几天的偶像活动，各位粉丝觉得可还行？<br><br>
               现在G君还在整理着一大堆的图片，好看的图真的太多了，需要仔细筛选。那么现在就先用一部分图来回顾一下这几天的内容吧！<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/1.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/1.jpg"/><br><br>
               4月29号的萤火虫漫展大舞台，叶月飞鸟、TOKYO SWEET PARTY、Shine Fine Movement的表演真的是看不够啊！当然也谢谢现场粉丝们给力的应援了！<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/2.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/6.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/2.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/6.jpg"/><br><br>
               某位摄影师大佬提供的莉子返图，真是当天萤火虫漫展的一道亮丽风景线呢。<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/7.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/7.jpg"/><br><br>
               漫展结束后，成员们赶往直播节目，各种有趣段子让G君好好见识了日本偶像的综艺力。最后全员的纪念合影也是非常逗了。<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/9.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/9.jpg"/><br><br>
               结束一天的工作，成员自由活动的自拍，non酱和rina笑得像花儿一样。<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/10.webp"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/10.jpg"/><br>
               4月30号，在Mao livehouse举行的全天live演唱会，简直是嗨翻天！除了TSP、叶月、SFM以外，西瓜偶像夏芽優李也有演出！<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/11.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/12.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/13.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/14.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/11.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/12.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/13.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/14.jpg"/><br><br>
               无论是live还是物贩合影，粉丝交流会，都让大家过足了瘾！<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/15.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/16.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/15.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/16.jpg"/><br><br>
               5月1日，恒宝广场的商演，狠狠地让路人们见识了日本偶像和粉丝互动的魅力。<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/17.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/18.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/17.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/18.jpg"/><br><br>
               之后的粉丝同游会，大家在环球魔幻世界也度过了一个非常愉快的下午，为本次偶像祭画上了一个圆满的句号。<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/19.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20180501/19.jpg"/><br><br>
               这几天的行程，对偶像对粉丝们都是回忆满满的三天，之后G君会继续细细聊聊这段时间的一些花絮、趣事、秘话，希望大家也会继续支持啦~`
             }
             break;
@@ -260,39 +260,39 @@ export default {
               それでは、当日素敵な時間を振り返りましょう！<br><br>
               ライブ写真集<br><br>
               <p style="text-align: center;">鈴原知花</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-1.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-2.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-3.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-4.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-1.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-2.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-3.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-4.jpg"/><br><br>
               <p style="text-align: center;">Wi-Fi-5</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-5.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-6.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-7.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-8.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-5.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-6.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-7.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-8.jpg"/><br><br>
               <br><p style="text-align: center;">放課後プリンセス</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-9.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-10.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-11.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-12.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-9.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-10.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-11.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-12.jpg"/><br><br>
               <p style="text-align: center;">Ariel Project (アリエルプロジェクト)</p>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-13.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-14.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-15.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-16.webp"/><br><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-13.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-14.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-15.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-16.jpg"/><br><br>
               何時間も及ぶイベントですが、どこを切り取っても見応えたっぷり！ファンたちの反応もすごくよかったですよ！随分盛り上がりましたね。<br><br>
              年越しカウントダウン<br><br>
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/0.gif"/><br>
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/1.gif"/><br>
               <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/2.gif"/><br><br>
               ライブのラストは全員でカウントダウンしました。2018年は皆さんにとって素敵な一年になりますように〜~~<br><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-17.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-18.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-19.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-20.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-21.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-22.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-23.webp"/><br>
-              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/live-24.webp"/>`
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-17.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-18.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-19.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-20.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-21.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-22.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-23.jpg"/><br>
+              <img style="display: block;width: 100%;max-width: 800px;margin: 10px auto;box-sizing: border-box;" src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/20171231/live-24.jpg"/>`
             }
             break;
           case 5:

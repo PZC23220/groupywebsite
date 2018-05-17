@@ -7,7 +7,7 @@
         <h3 class="group-title scrollReveal">{{idolInfo.title}}</h3>
         <a target="_black" :href="'https://twitter.com/intent/user?user_id='+idolInfo.idolList[0].snsUidTw" v-if="idolInfo.idolList.length == 1 && idolInfo.idolList[0].snsUidTw" class="idol-sns idol-sns-desc"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_twitter.png"></a>
         <a target="_black" :href="'https://weibo.com/u/'+idolInfo.idolList[0].snsUidWeibo" v-if="idolInfo.idolList.length == 1 && idolInfo.idolList[0].snsUidWeibo" class="idol-sns idol-sns-desc"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_weibo.png"></a>
-        <p class="group-title2 scrollReveal width1000">{{idolInfo.introduce}}</p>
+        <p class="group-title2 scrollReveal width1000"></p>
         <img v-lazy="idolInfo.img" class="group-img scrollReveal">
         <div class="group-idol scrollReveal" v-if="idolInfo.idolList && idolInfo.idolList.length > 1"><span></span><em>{{text.idols}}</em><span></span></div>
         <ul class="group-list" v-if="idolInfo.idolList && idolInfo.idolList.length > 1">
@@ -15,7 +15,7 @@
               <p class="group-logo"><span :style="'background-image:url('+ idol.avatar +');'"></span></p>
               <div class="group-desc">
                 <p class="group-name">{{idol.nickname}}</p>
-                <p class="group-info">{{idol.introduce}}</p>
+                <p class="group-info" v-html="TransferString(idol.introduce)"></p>
                 <a v-if="idol.snsUidTw" target="_black" :href="'https://twitter.com/intent/user?user_id='+idol.snsUidTw" class="idol-sns"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_twitter.png"></a>
                 <!-- <a v-if="idol.sns_uid_fb" target="_black" :href="'https://facebook.com/'+idol.sns_uid_fb" class="idol-sns"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_facebook.png"></a> -->
                 <a v-if="idol.snsUidWeibo" target="_black" :href="'https://weibo.com/u/'+idol.snsUidWeibo" class="idol-sns"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_weibo.png"></a>
@@ -80,6 +80,16 @@ export default {
     }
   },
   methods: {
+    TransferString(content) {
+     let string = content;
+     try{
+        string=string.replace(/\r\n/g,"<br>")
+        string=string.replace(/\n/g,"<br>");
+     }catch(e) {
+        console.log(e.message);
+     }
+     return string;
+    },
     changeInfo() {
       if(this.lan == 'zh-cn') {
         console.log(this.lan)
@@ -118,7 +128,7 @@ export default {
     },
     getGroupList(type) {
       let self = this;
-      http.get(`http://api.groupy.vip:8080/group/getListToWeb?type=${type}`).then(function(res){
+      http.get(`http://api.groupy.vip/group/getListToWeb?type=${type}`).then(function(res){
         self.idx = 1;
         if(res.data.orgList){
           if(type == 'Japan') {

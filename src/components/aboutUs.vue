@@ -35,15 +35,15 @@
        <table class="width1000">
         <tr>
           <td class="tr-title">{{text.email}}</td>
-          <td class="bigImg"><a :href="'mailto:'+text.emailNumber">{{text.emailNumber}}</a></td>
+          <td class="bigImg"><a :href="'tel:'+text.emailNumber">{{text.emailNumber}}</a></td>
         </tr>
         <tr v-if="text.weibo">
           <td class="tr-title">{{text.weibo}}</td>
-          <td class="bigImg"><a href="https://weibo.com/Groupy" class="weibo" target="_black">@GGroupy</a></td>
+          <td class="bigImg"><a href="mailto:waylon@groupy.vip" class="weibo">waylon@groupy.vip</a></td>
         </tr>
         <tr v-if="text.public">
           <td class="tr-title">{{text.public}}</td>
-          <td class="bigImg">{{text.publicName}}</td>
+          <td class="bigImg"><a href="mailto:contact@cloudtrons.com" class="weibo">contact@cloudtrons.com</a></td>
         </tr>
       </table>
       <div class="bottomDashed marginTop width1200"></div>
@@ -72,12 +72,10 @@ export default {
         headOfficeName: '广州市云动网络有限公司',
         BranchOfficeName: '株式会社Cloudtrons',
         address: '地址',
-        contact: '联系方式',
-        email: '邮箱',
-        weibo: '微博',
-        public: '公众号',
-        publicName: 'Groupy三次元日系爱豆短视频',
-        emailNumber: 'contact@groupy.vip'
+        contact: '商务合作',
+        email: '电话',
+        weibo: '邮箱',
+        emailNumber: '020-38915438'
       }
     }
   },
@@ -95,12 +93,10 @@ export default {
           headOfficeName: '广州市云动网络有限公司',
           BranchOfficeName: '株式会社Cloudtrons',
           address: '地址',
-          contact: '联系方式',
-          email: '邮箱',
-          weibo: '微博',
-          public: '公众号',
-          publicName: 'Groupy三次元日系爱豆短视频',
-          emailNumber: 'contact@groupy.vip'
+          contact: '商务合作',
+          email: '电话',
+          weibo: '邮箱',
+          emailNumber: '020-38915438'
         }
       }else {
         this.text = {

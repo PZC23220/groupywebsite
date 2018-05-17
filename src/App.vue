@@ -6,7 +6,7 @@
       <div class="tabs width1200">
         <nav class="left">
           <router-link :to="'/index?lan='+lan" class="tabs-groupy-icon"><img src="http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/Groupywebsite/icon_groupy_128.png" alt=""></router-link>
-          <a href="http://activity.groupy.vip/GroupyIdolFestival201805/index.html" target="_black" class="tabs-li tabs-li-idolFestival">
+          <a href="http://activity.groupy.vip/GroupyIdolFestival201807/index.html" target="_black" class="tabs-li tabs-li-idolFestival">
             <p class="tab-title">{{text.idolFestival}}</p>
             <p class="tab-desc">Latest</p>
           </a >
@@ -37,7 +37,7 @@
     </header>
     <div class="navWindow" :class="[{'navWindowShow':navWindowShow},{'box':navWindowShow}]">
       <nav class="navs">
-         <a href="http://activity.groupy.vip/GroupyIdolFestival201805/index.html" @click="toPath()" target="_black" class="tabs-li tabs-li-idolFestival router-link-active">
+         <a href="http://activity.groupy.vip/GroupyIdolFestival201807/index.html" @click="toPath()" target="_black" class="tabs-li tabs-li-idolFestival router-link-active">
           <p class="tab-title">{{text.idolFestival}}</p>
           <p class="tab-desc">Latest</p>
         </a >
@@ -110,7 +110,7 @@ export default {
         qqTitle: 'QQ群',
         qqDesc: 'Groupy福利不断粉丝群',
         weiboTitle: '微博',
-        weiboDesc: '@GGroupy',
+        weiboDesc: 'Groupy小饭圈',
         protocol: '使用协议',
         privacyPolicy: '隐私政策',
         copyright: 'Copyright 2018 广州市云动网络有限公司 All rights reserved. ',
@@ -165,7 +165,7 @@ export default {
           qqTitle: 'QQ群',
           qqDesc: 'Groupy福利不断粉丝群',
           weiboTitle: '微博',
-          weiboDesc: '@GGroupy',
+          weiboDesc: 'Groupy小饭圈',
           protocol: '使用协议',
           privacyPolicy: '隐私政策',
           copyright: 'Copyright 2018 广州市云动网络有限公司 All rights reserved. ',
@@ -173,7 +173,7 @@ export default {
         }
       }else {
         this.text = {
-          idolFestival: '最近イベント',
+          idolFestival: 'イベント情報',
           idolGroup: '配信アイドル',
           event: 'イベント現場',
           news: 'お知らせ',
@@ -186,7 +186,7 @@ export default {
           qqTitle: 'QQ群',
           qqDesc: 'Groupy福利不断粉丝群',
           weiboTitle: '微博',
-          weiboDesc: '@GGroupy',
+          weiboDesc: 'Groupy小饭圈',
           protocol: '利用規約',
           privacyPolicy: 'プライバシーポリシー',
           copyright: 'Copyright 2018 广州市云动网络有限公司 All rights reserved. ',

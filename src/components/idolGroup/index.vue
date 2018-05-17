@@ -14,7 +14,7 @@
                     <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-logo"><span :style="'background-image:url('+ idol.smallLogo +');'"></span></router-link>
                     <div class="group-desc">
                       <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-name">{{idol.name}}</router-link>
-                      <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-info">{{idol.introduce}}</router-link>
+                      <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-info" v-html="TransferString(idol.introduce)"></router-link>
                     </div>
                 </li>
               </ul>
@@ -35,7 +35,7 @@
                     <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-logo"><span :style="'background-image:url('+ idol.smallLogo +');'"></span></router-link>
                     <div class="group-desc">
                       <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-name">{{idol.nameChinese}}</router-link>
-                      <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-info">{{idol.introduceChinese}}</router-link>
+                      <router-link :to="'/idolGroup_group?id='+idol.id+'&nationality='+idol.nationality+'&lan='+lan" class="group-info" v-html="TransferString(idol.introduceChinese)"></router-link>
                     </div>
                 </li>
               </ul>
@@ -119,6 +119,16 @@ export default {
     }
   },
   methods: {
+    TransferString(content) {
+     let string = content;
+     try{
+        string=string.replace(/\r\n/g,"<br>")
+        string=string.replace(/\n/g,"<br>");
+     }catch(e) {
+        console.log(e.message);
+     }
+     return string;
+    },
     changeSwipers(val) {
       let tabs = $('.group-tabs a');
       tabs.removeClass('active');

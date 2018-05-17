@@ -7,7 +7,7 @@
       <div class="banner-content">
         <swiper :options="swiperOption" ref="bannerSwiper" class="swiper-content width1200 scrollReveal">
           <swiper-slide id="swiper1" class="banner-slides">
-            <a href="http://activity.groupy.vip/GroupyIdolFestival201805/index.html" target="_black"><img v-lazy="text.banner1" class="banners"></a>
+            <a href="http://activity.groupy.vip/GroupyIdolFestival201807/index.html" target="_black"><img v-lazy="text.banner1" class="banners"></a>
           </swiper-slide>
           <!-- <div class="swiper-pagination banner-page" slot="pagination"></div> -->
         </swiper>
@@ -99,8 +99,8 @@
           <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_5.png" @click="clickLeft()" class="event-btn btn-left cursor">
           <swiper :options="swiperOption2" ref="eventSwiper" class="swiper-content2">
             <swiper-slide class="event-slides">
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img :src="text.event7Img" class="event-img"></router-link>
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event7Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
+              <router-link :to="'/news_desc?id=5&lan='+lan" class="event-img-content"><img :src="text.event7Img" class="event-img"></router-link>
+              <router-link :to="'/news_desc?id=5&lan='+lan" class="event-desc"><span v-html="text.event7Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
             <swiper-slide class="event-slides">
               <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img :src="text.event8Img" class="event-img"></router-link>
@@ -130,8 +130,8 @@
           <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_5.png" @click="clickLeft2()" class="event-btn btn-left cursor">
           <swiper :options="swiperOption3" ref="eventSwiper2" class="swiper-content2">
             <swiper-slide class="event-slides">
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img :src="text.event7Img" class="event-img"></router-link>
-              <router-link :to="'/news_desc?id=4&lan='+lan" class="event-desc"><span v-html="text.event7Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
+              <router-link :to="'/news_desc?id=5&lan='+lan" class="event-img-content"><img :src="text.event7Img" class="event-img"></router-link>
+              <router-link :to="'/news_desc?id=5&lan='+lan" class="event-desc"><span v-html="text.event7Title"></span><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/btn_3.png"></router-link>
             </swiper-slide>
             <swiper-slide class="event-slides">
               <router-link :to="'/news_desc?id=4&lan='+lan" class="event-img-content"><img v-lazy="text.event8Img" class="event-img"></router-link>
@@ -294,7 +294,7 @@ export default {
         }
       },
       text: {
-        banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
+        banner1: 'https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/title.png',
         banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
         bgTitle: '日系偶像应援',
         background: 'BACKGROUND',
@@ -366,7 +366,7 @@ export default {
     changeInfo() {
       if(this.lan == 'zh-cn') {
         this.text = {
-          banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
+          banner1: 'https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/title.png',
           banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           bgTitle: '日系偶像应援',
           background: 'BACKGROUND',
@@ -434,7 +434,7 @@ export default {
         }
       }else {
         this.text = {
-          banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
+          banner1: 'https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/title2.png',
           banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           bgTitle: '市場可能性まだ大きい',
           background: 'MARKETING',
@@ -445,12 +445,12 @@ export default {
           liveImgs: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/img_8.png',
           bugImg: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_9.png',
           bugImgs: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/img_9.png',
-          callDesc: '韓国発のアイドル育成番組『Produce101』などの大ブレイクによって、アイドルグループへの関心が高まっていた。また、中国では「二次元（アニメ・漫画・ゲームなどをまとめたジャンル）」文化はとても人気があり、その「二次元」の派生文化としてのアイドル文化もだんだん注目を集めていく。',
-          liveDesc: 'アイドルを応援するために、若者たちは多くの時間やお金を注ぎ込んでいる。例えば、中国アイドルSNH482017年の総選挙では、投票にかかった総額のみが1億元を超えた。 ',
-          bugDesc: '中国のアイドル市場自体がまだ未熟であり、日本に較べアイドルグループの数もまだ飽和状態ではないので、これから大勢のファンの様々なニーズを満たすために、より多くのアイドルグループを導入する必要がある。',
+          callDesc: '韓国発のアイドル育成番組『Produce101』などの大ブレイクによって、アイドルグループへの関心が高まっています。また、中国では「二次元（アニメ・漫画・ゲームなどをまとめたジャンル）」文化はとても人気があり、その「二次元」の派生文化としてのアイドル文化もだんだん注目を集めていきます。',
+          liveDesc: 'アイドルを応援するために、若者たちは多くの時間やお金を注ぎ込んでいます。例えば、中国アイドルSNH482017年の総選挙では、投票にかかった総額のみが1億元を超えました。 ',
+          bugDesc: '中国のアイドル市場自体がまだ未熟であり、日本に較べアイドルグループの数もまだ飽和状態ではないので、これから大勢のファンの様々なニーズを満たすために、より多くのアイドルグループを導入する必要があります。',
           productTitle: 'アプリ紹介',
-          productTitleDesc: 'Groupyとはファン向けのアイドル応援アプリです<br>Groupyでしかないアイドルのプライベート動画を視聴して推しメンを応援しましょう！<br>人気アイドルは、雑誌&ライブの出演・中国進出等のチャンスを獲得できます',
-          video1Img: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_1.png',
+          productTitleDesc: 'Groupyとはファン向けのアイドル応援アプリです。<br>アイドルが動画を配信してファンとコミュニケーションをとることができます。<br>ファンからの応援に応じて、人気アイドルは、雑誌掲載、ライブ出演、中国進出などのチャンスが得られます。',
+          video1Img: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_1.jpg',
           video1Name: 'ID：みのわみのり',
           video2Img: 'http://photoh5-jp.oss-ap-northeast-1.aliyuncs.com/groupywebsite2/text_2.png',
           video2Name: 'ID：あおい@Ariel Project',
@@ -458,7 +458,7 @@ export default {
           video3Name: 'ID：橘 莉子(りぃちゃん)',
           video4Name: 'ID：渡邊ちこ(notall)',
           groupTitle: '配信アイドル',
-          groupTitleDesc: 'Groupy配信アイドル続々追加中<br>毎日動画を更新し<br>癒される笑顔や面白い内容をご提供',
+          groupTitleDesc: '新規配信アイドルが続々参加<br>人気アイドルがたくさん集まり、毎日動画配信中<br>かわいい笑顔や面白いオフショットがご覧いただけます',
           idol1Img: 'http://groupyupload2.oss-cn-hongkong.aliyuncs.com/organization_post/Shine%20Fine%20Movement.jpg',
           idol2Img: 'http://groupyupload2.oss-cn-hongkong.aliyuncs.com/organization_post/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%83%95%E3%82%9A%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9.jpg',
           idol3Img: 'http://groupyupload2.oss-cn-hongkong.aliyuncs.com/organization_post/TOKYO%20SWEET%20PARTY.jpg',
