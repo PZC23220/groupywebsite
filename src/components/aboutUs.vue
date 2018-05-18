@@ -43,7 +43,7 @@
         </tr>
         <tr v-if="text.public">
           <td class="tr-title">{{text.public}}</td>
-          <td class="bigImg"><a href="mailto:contact@cloudtrons.com" class="weibo">contact@cloudtrons.com</a></td>
+          <td class="bigImg"><a href="mailto:contact@cloudtrons.com" class="weibo">waylon@groupy.vip</a></td>
         </tr>
       </table>
       <div class="bottomDashed marginTop width1200"></div>
@@ -111,8 +111,9 @@ export default {
           BranchOfficeName: '株式会社Cloudtrons',
           address: '地址',
           contact: 'お問合せ',
-          email: 'Email',
-          emailNumber: 'contact@cloudtrons.com'
+          email: 'Tel',
+          weibo: 'Email',
+          emailNumber: '+86-20-38915438'
         }
       }
     },
