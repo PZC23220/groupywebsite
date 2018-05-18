@@ -7,7 +7,7 @@
         <h3 class="group-title scrollReveal">{{idolInfo.title}}</h3>
         <a target="_black" :href="'https://twitter.com/intent/user?user_id='+idolInfo.idolList[0].snsUidTw" v-if="idolInfo.idolList.length == 1 && idolInfo.idolList[0].snsUidTw" class="idol-sns idol-sns-desc"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_twitter.png"></a>
         <a target="_black" :href="'https://weibo.com/u/'+idolInfo.idolList[0].snsUidWeibo" v-if="idolInfo.idolList.length == 1 && idolInfo.idolList[0].snsUidWeibo" class="idol-sns idol-sns-desc"><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/icon_weibo.png"></a>
-        <p class="group-title2 scrollReveal width1000"></p>
+        <p class="group-title2 scrollReveal width1000" v-html="TransferString(idolInfo.introduce)"></p>
         <img v-lazy="idolInfo.img" class="group-img scrollReveal">
         <div class="group-idol scrollReveal" v-if="idolInfo.idolList && idolInfo.idolList.length > 1"><span></span><em>{{text.idols}}</em><span></span></div>
         <ul class="group-list" v-if="idolInfo.idolList && idolInfo.idolList.length > 1">
