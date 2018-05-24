@@ -11,6 +11,19 @@
   // background-repeat: repeat;
   // background-color: #fdf2ea;
 }
+.banner_container {
+    padding: 1.5rem 0 0;
+}
+.banner2 {
+    display: none;
+}
+.banner {
+	img {
+	    display: block;
+	    margin: 0 auto;
+	    width: 100%;
+	 }
+}
 .banners {
 	width: 100%;
 	display: block;
@@ -135,6 +148,10 @@
 }
 .idol-name-3 {
 	margin-left: -3rem;
+}
+.idol-name-4 {
+	margin-left: -8.2rem;
+	bottom: 2.4rem;
 }
 .groupy-h4 {
 	display: block;
@@ -499,10 +516,10 @@
 	.event-slides {
 		width: calc(100vw - 3.8rem);
 	}
-	.event-swiper-content {
+	.event-swiper-content,.banner1 {
 		display: none;
 	}
-	.event-swiper-content-web {
+	.event-swiper-content-web,.banner2 {
 		display: block;
 	}
 	.event-page {

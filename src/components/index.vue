@@ -5,9 +5,34 @@
     <div class="content">
       <!-- banner -->
       <div class="banner-content">
-        <swiper :options="swiperOption" ref="bannerSwiper" class="swiper-content width1200 scrollReveal">
+        <swiper :options="swiperOption" ref="bannerSwiper" class="swiper-content scrollReveal">
           <swiper-slide id="swiper1" class="banner-slides">
-            <a href="http://activity.groupy.vip/GroupyIdolFestival201807/index.html" target="_black"><img v-lazy="text.banner1" class="banners"></a>
+            <a href="http://activity.groupy.vip/GroupyIdolFestival201807/index.html" target="_black">
+              <div class="banner banner1">
+                <img :src="text.banner1" class="width1200">
+                <swiper :options="swiperOption5" ref="mySwiper" class="banner_container">
+                    <!-- slides -->
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/huase.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/notall.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/yinv.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/AA.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/tsd.jpg"></swiper-slide>
+                    <div class="swiper-pagination4" slot="pagination"></div>
+                </swiper>
+              </div>
+               <div class="banner banner2">
+                <img :src="text.banner1" class="width1200">
+                <swiper :options="swiperOption4" ref="mySwiper" class="banner_container">
+                    <!-- slides -->
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/huase.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/notall.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/yinv.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/AA.jpg"></swiper-slide>
+                    <swiper-slide><img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/tsd.jpg"></swiper-slide>
+                    <div class="swiper-pagination4" slot="pagination"></div>
+                </swiper>
+              </div>
+            </a>
           </swiper-slide>
           <!-- <div class="swiper-pagination banner-page" slot="pagination"></div> -->
         </swiper>
@@ -58,9 +83,9 @@
           <p class="idol-name idol-name-3">{{text.video3Name}}</p>
         </div>
         <div class="idol-desc scrollReveal">
-          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_video_4.png" class="idol-video">
           <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/text_7.png" v-if="lan == 'zh-cn'" class="idol-info idol-info-2">
-          <p class="idol-name idol-name-3">{{text.video4Name}}</p>
+          <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/img_video_4.png" class="idol-video">
+          <p class="idol-name idol-name-4">{{text.video4Name}}</p>
         </div>
       </div>
       <img src="http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/bg_1.png" class="bg-img">
@@ -293,8 +318,40 @@ export default {
           }
         }
       },
+      swiperOption4: {
+        setWrapperSize :true,
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false
+        },
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination4',
+          clickable :true,
+        },
+        grabCursor: true,
+        paginationClickable: true,
+      },
+      swiperOption5: {
+        speed: 2000,
+        setWrapperSize :true,
+        spaceBetween: 30,
+        slidesPerView: 3,
+        slidesPerGroup: 1,
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false
+        },
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination4',
+          clickable :true,
+        },
+        grabCursor: true,
+        paginationClickable: true,
+      },
       text: {
-        banner1: 'https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/title.png',
+        banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/subject2.png',
         banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
         bgTitle: '日系偶像应援',
         background: 'BACKGROUND',
@@ -366,7 +423,7 @@ export default {
     changeInfo() {
       if(this.lan == 'zh-cn') {
         this.text = {
-          banner1: 'https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/title.png',
+          banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/subject.png',
           banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           bgTitle: '日系偶像应援',
           background: 'BACKGROUND',
@@ -434,7 +491,7 @@ export default {
         }
       }else {
         this.text = {
-          banner1: 'https://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/title2.png',
+          banner1: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/idolFestival201807/subject2.png',
           banner2: 'http://photoh5-cn.oss-cn-shenzhen.aliyuncs.com/groupyWebsite/banner-1.jpg',
           bgTitle: '市場可能性まだ大きい',
           background: 'MARKETING',
