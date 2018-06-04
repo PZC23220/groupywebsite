@@ -92,10 +92,10 @@
 	opacity: 1;
 	transition: opacity 0.5s ease;
 	overflow : hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .group-page {
 	padding: 4rem 0 4.5rem;
